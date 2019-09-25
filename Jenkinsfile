@@ -13,7 +13,7 @@ node {
   }
 
   stage('deploy') {
-    openshiftDeploy deploymentConfig: 'nodejs-openshift-ex'
+    openshiftDeploy namespace: 'nodejs-demo', deploymentConfig: 'nodejs-openshift-ex'
   }
 
 }

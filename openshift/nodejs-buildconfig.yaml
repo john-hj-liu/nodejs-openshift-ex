@@ -12,7 +12,7 @@ spec:
   source:
     git:
       ref: master
-      uri: https://github.com/shaundomingo/nodejs-openshift-ex.git
+      uri: https://github.com/john-hj-liu/nodejs-openshift-ex.git
     type: Git
   strategy:
     type: Docker
